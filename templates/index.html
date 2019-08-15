@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container top-row">
+      <header class="container">
+        <div class="box red">
+          <img src="{{ url_for('static', filename='logo.png') }}" alt="Portfolio logo" class="logo-image">
+        </div>
+        <div class="box seafoam">
+          <h1>WAEL ABDELHAMID</h1>
+          <h2>Front-End Ninja</h2>
+        </div>
+        <div class="box lime">
+          <hr class="line">
+        </div>
+      </header>
+      <main>
+        <div class="box white centered">
+          <img src="{{ url_for('static', filename='center-image.png') }}" alt="Center image" class="center-image">
+        </div>
+      </main>
+      <div class="container small-images-container" id="container2">
+        <div class="box dark_blue title">
+          <article>
+            <h2>Featured Work</h2>
+          </article>
+        </div>
+        <div class="box light_blue centered">
+          <article class="figured">
+            <img src="{{ url_for('static', filename='automation.png') }}" alt="Automation" class="small-images">
+            <h2>Automation</h2>
+            <a href="#" target="_blank" class="my-styled-link">URL for Automation</a>
+          </article>
+        </div>
+        <div class="box green centered">
+          <article class="figured">
+            <img src="{{ url_for('static', filename='custom.jpeg') }}" alt="Custom" class="small-images">
+            <h2>Custom</h2>
+            <a href="#" target="_blank" class="my-styled-link">URL for Custom</a>
+          </article>
+        </div>
+        <div class="box orange centered">
+          <article class="figured">
+            <img src="{{ url_for('static', filename='pixel_mosaic.png') }}" alt="Pixel mosaic" class="small-images">
+            <h2>Pixel Mosaic</h2>
+            <a href="#" target="_blank" class="my-styled-link">URL for Pixel Mosaic</a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

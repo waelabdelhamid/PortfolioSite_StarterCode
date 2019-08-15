@@ -1,0 +1,184 @@
+/*
+These are the default styles. No need to change these.
+*/
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  /*color: #2d3c4;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+header,
+nav,
+footer,
+section,
+article,
+div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.my-styled-link{
+  color: #7d97ad !important;
+  text-decoration: none;
+}
+
+.title {
+  padding-left: 30px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.figured {
+  margin: 0;
+}
+
+.top-row {
+  margin-top: 30px;
+}
+
+.logo-image {
+  width: 80px;
+}
+
+.center-image {
+  width: 100%;
+}
+
+/*.line {
+  width: 100%;
+}*/
+
+.small-images {
+  width: 200px;
+  height: 100px;
+}
+
+/*
+These are the flexbox styles. keep it for test.
+*/
+
+/*.box {
+  min-height: 150px;
+}*/
+
+.dark_blue {
+  /*background-color: #2A457A;*/
+  color: #7d97ad;
+}
+
+/*.white {
+  background-color: rgb(255, 255, 255);
+}*/
+
+/*.light_blue {
+  background-color: #099DD9;
+}*/
+
+/*.green {
+  background-color: #0C8542;
+}*/
+
+/*.red {
+  background-color: #EC1D3B;
+}*/
+
+/*.orange {
+  background-color: #F79420;
+}*/
+
+/*.lime {
+  background-color: rgb(179, 210, 52);
+}*/
+
+/*.seafoam {
+  background-color: rgb(77, 190, 161);
+}*/
+
+/*
+These are the responsive styles. Throw some breakpoints in here!
+*/
+
+.container {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+}
+
+@media screen and (max-width: 599px){
+  .seafoam {
+    text-align: center;
+    font-size: 12px;
+    line-height: 2em;
+  }
+  #container2 {
+    font-size: 12px;
+    line-height: 2em;
+  }
+  .red {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 600px){
+  #container2 {
+    width: 100%;
+    order: 1;
+    font-size: 14px;
+    line-height: 2.50em;
+  }
+  .green,
+  .light_blue,
+  .orange {
+    width: 33.333333%;
+  }
+  .white {
+    width: 100%;
+  }
+  .seafoam {
+    width: 50%;
+    text-align: right;
+    font-size: 14px;
+    line-height: 2.50em;
+  }
+  .red {
+    width: 50%;
+    order: -1;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 700px){
+  .container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
