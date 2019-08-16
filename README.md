@@ -18,7 +18,7 @@ Check [My Portfolio Site](https://portfolio-wael.herokuapp.com/) for an example 
 ## Installation
 
 * [Git bash](https://git-scm.com/downloads) is required for windows.
-* [Python 2.7](https://www.python.org/downloads/release/python-2712/) is required.
+* [Python 2.7](https://www.python.org/downloads/release/python-2712/) or higher is required.
 
 *Note: The next installation must be done from the shell like (terminal on Mac or Linux, git bash on windows)*
 * [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) is optional, but if you will use, you must Create& Activate the environment inside the cloned project folder.
@@ -26,10 +26,13 @@ Check [My Portfolio Site](https://portfolio-wael.herokuapp.com/) for an example 
 
 ## How To run this site
 
-*Note: The next steps must be done from the shell like (terminal on Mac or Linux, git bash on windows)*
-1- Fork& Clone the project from github.
-2- Change the current directory to the cloned project folder.
-3- Run app.py using the command `python app.py`.
-4- After successful running for the app.py, the portfolio server should be `Running on http://localhost:8000/`
-5- Open the browser and access this URL http://localhost:8000/ to see the portfolio page.
-6- To stop the portfolio server press [ctrl+c] from the shell.
+1. Fork the starter repo
+2. Clone the remote to your local machine
+3. Using the terminal, change directory to the cloned project folder, then type `python app.py` to lunch the server.
+4. Once it is up and running, visit this URL http://localhost:8000/ to see the portfolio page.
+5. To stop the portfolio server press [ctrl+c] from the terminal.
+
+## Troubleshooting
+
+**I'm getting an error about port 8000 is already in use.**
+* Please run the server on another port: 5000 or 8080, for ex. from terminal, type `export PORT=5000` and try again.
