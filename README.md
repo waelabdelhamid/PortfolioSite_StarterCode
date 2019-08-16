@@ -18,7 +18,7 @@ Check [My Portfolio Site](https://portfolio-wael.herokuapp.com/) for an example 
 ## Installation
 
 * [Git bash](https://git-scm.com/downloads) is required for windows.
-* [Python 2.7](https://www.python.org/downloads/release/python-2712/) or higher is required.
+* [Python 2.7](https://www.python.org/downloads/release/python-2712/) is required.
 
 *Note: The next installation must be done from the shell like (terminal on Mac or Linux, git bash on windows)*
 * [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) is optional, but if you will use, you must Create& Activate the environment inside the cloned project folder.
